@@ -1,0 +1,62 @@
+digraph E {  /* box is full course, oval is half, octagon is half or full
+        graph[fontsize=12pt];
+	/* 104 [shape=box]; */  
+	/* 105 [shape=box]; */  
+	/* 120 [shape=box]; */  
+	/* 130 [shape=box]; */  
+	150 [shape=box];  
+	160 [shape=box];  
+	/* 207 [shape=box]; */  
+	208 [shape=box];  
+	211 [shape=box];  
+	213 [shape=box];  
+	217 [shape=box];  
+	240 [shape=box];  
+	251 [shape=box];  
+	303 [shape=box];  
+	304 [shape=box];  
+	305 [shape=box];  
+	308 [shape=box];  
+	315 [shape=box];  
+	351 [shape=box];  
+	380 [shape=box];  
+	381 [shape=box];  
+	/* 399 [shape=box]; */  
+	401 [shape=box];  
+	403 [shape=box];  
+	406 [shape=box];  
+	407 [shape=box];  
+	410 [shape=box];  
+	417 [shape=box];  
+	451 [shape=box];  
+	/* 490 [shape=box]; */  
+	/* 495 [shape=box]; */  
+        150 -> 160;
+        /* 150 -> 207; */
+        /* 207 -> 208; */
+        240 -> 208;
+        160 -> 211; 
+        160 -> 213;
+        150 -> 217;
+        211 -> 240;
+        160 -> 251;
+        160 -> 303;
+        160 -> 304;
+        160 -> 305;
+        /* 160 -> 308; */
+        240 -> 308;
+        211 -> 315;
+        251 -> 351;
+        150 -> 381;
+        240 -> 401;
+        401 -> 403;
+        240 -> 406;
+        406 -> 407;
+        211 -> 417;
+        213 -> 417;
+        303 -> 417;
+        251 -> 451;
+        { rank=same; 403; 410 };
+        { rank=same; 160; 380 }; 
+
+}

@@ -1,0 +1,38 @@
+digraph E {
+	graph[fontsize=12pt]; 
+	231 [shape=box, label="231"];  /* Schools and Society */
+	241 [shape=box];  /* Literature for Children and Adolescents */
+	251 [shape=box];  /* Child Development in a Culturally .. */
+	271 [shape=box]; /* Adolescent Development in a Culturally .. */
+	300 [shape=box];  /* Teaching Social Studies and the Arts */
+	325 [shape=box];  /* Teaching Elementary School Mathematics */
+	335 [shape=box];  /* Literacy in the Elementary School .. */
+	339 [shape=box];  /* Making Meaning: .. */
+	340 [shape=box];  /* Teaching in Inclusive Elementary Classrooms */
+	343 [shape=box]; /* Literacy in Secondary Schools */
+	357 [shape=box];  /* Early Childhood Education .. */
+	361 [shape=box]; /* Curriculum in Middle and High School */
+	367 [shape=box]; /* Approaches to Teaching Math, Science & Technology */
+	370 [shape=box]; /* Teaching in an Inclusive Middle and High School */
+	380 [shape=box];  /* Topics in Education */
+	423 [shape=box]; /* Practicum */
+	424 [shape=box]; /* Secondary Student Teaching */
+	427 [shape=box]; /* Inquiry Science Practicum */
+	428 [shape=box]; /* Student Teaching Seminar */
+	430 [shape=box]; /* Senior Seminar: Secondary Education */
+	450 [shape=box]; /* Advanced Topics in Education */
+	475 [shape=box]; /* Student Teaching Internship */
+
+        subgraph cluster0 {  /* Student Teaching */
+          428; 475;
+        }
+
+	231 -> 251;
+	231 -> 271; 
+	231 -> 300; 
+	251 -> 325;
+	251 -> 335; 
+	300 -> 340;
+	335 -> 340;
+	/* 370 -> cluster1; */
+}
